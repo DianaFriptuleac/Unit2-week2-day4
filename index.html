@@ -4,11 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap and Sass</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="custom-bootstrap.css">
   </head>
   <body>
+    <!--navbar--> 
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -81,6 +83,7 @@
           </nav>
     </header>
     <main>
+         <!--head--> 
     <div class="bg-background-color">
         <div class="container  d-flex">
             <div class="row  text-light ">
@@ -106,6 +109,7 @@
 </div>
         </div>
     </div>
+       <!--buttons under head--> 
     <div class="container d-flex bg-light my-4 >
         <div class="row">
             <div class="col d-flex">
@@ -156,10 +160,11 @@
             </div>
         </div>
     </div>
-    <hr>
-    <div class="container">
-        <h3>Recommended to you</h3>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+  </hr>
+       <!--first row--> 
+    <div class="container my-5">
+        <h3 class="mb-4">Recommended to you</h3>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
             <div class="col">
               <div class="card h-100">
                 <img src="assets/IMG/course-graphql.jpg" class="card-img-top" alt="graphQQI">
@@ -167,66 +172,379 @@
                   <h5 class="card-title">GraphQL: introduction to
                     graphQL for beginners</h5>
                   <p><i class="fa-regular fa-clock"></i><span> 2h 40m </span> <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reception-4" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reception-4 text-background-color" viewBox="0 0 16 16">
                     <path d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
                   </svg></span>
                
                   <span>Advance</span></p>
                   <div><p>
-                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
-                    <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-                  </svg> 2.5
-                </span><span>(1,500)</span></p>
-                <p>500$ <span><del>$600</del></span></p>
+                    <span class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star "></i>
+                      <i class="bi bi-star "></i> <span >2.5</span> 
+                </span>
+                <span class="text-secondary">(1,500)</span></p>
+                <p> <span class="fw-bold me-2">500$ </span><span class="text-secondary"><del>$600</del></span></p>
                 </div>
                 </div>
-                <div class="card-footer">
-                    <img src="assets/IMG/avatar-2.jpg" class="w-25 "  alt="Avatar2">
-                  <small class="text-body-secondary">Brooklyn Simmons</small>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
-                    <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/>
-                  </svg>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <img src="assets/IMG/avatar-5.jpg"  class="rounded-circle w-25" alt="Avatar2">
+                  <small class="text-body-secondary fs-5">Brooklyn Simmons</small>
+                  <i class="bi bi-bookmark fs-5"></i>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="assets/IMG/course-javascript.jpg" class="card-img-top" alt="graphQQI">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">A Complete Beginner's Guide to JavaSScript</h5>
+                  <p><i class="fa-regular fa-clock"></i><span> 4h 10m </span> <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reception-4 text-background-color" viewBox="0 0 16 16">
+                    <path d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
+                  </svg></span>
+               
+                  <span>Advance</span></p>
+                  <div><p>
+                    <span class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half "></i>
+                      <i class="bi bi-star "></i> <span >3.5</span> 
+                </span>
+                <span class="text-secondary">(7,500)</span></p>
+                <p> <span class="fw-bold me-2">700$ </span><span class="text-secondary"><del>$850</del></span></p>
                 </div>
-                <div class="card-footer">
-                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <img src="assets/IMG/avatar-1.jpg"  class="rounded-circle w-25" alt="Avatar2">
+                  <small class="text-body-secondary fs-5">Jenny Wilson</small>
+                  <i class="bi bi-bookmark fs-5"></i>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="assets/IMG/course-node.jpg" class="card-img-top" alt="graphQQI">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <h5 class="card-title">Beginning Node.js, Express & MongoDB Developer</h5>
+                  <p><i class="fa-regular fa-clock"></i><span> 2h 00m </span> <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reception-4 text-background-color" viewBox="0 0 16 16">
+                    <path d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
+                  </svg></span>
+               
+                  <span>Intermediate</span></p>
+                  <div><p>
+                    <span class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill "></i>
+                      <i class="bi bi-star "></i> <span >4</span> 
+                </span>
+                <span class="text-secondary">(15,700)</span></p>
+                <p> <span class="fw-bold me-2">800$ </span><span class="text-secondary"><del>$950</del></span></p>
                 </div>
-                <div class="card-footer">
-                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <img src="assets/IMG/avatar-3.jpg"  class="rounded-circle w-25" alt="Avatar2">
+                  <small class="text-body-secondary fs-5">Sina Ray</small>
+                  <i class="bi bi-bookmark fs-5"></i>
                 </div>
               </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/IMG/course-laravel.jpg" class="card-img-top" alt="graphQQI">
+                <div class="card-body">
+                  <h5 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h5>
+                  <p><i class="fa-regular fa-clock"></i><span> 1h 00m </span> <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reception-4 text-secondary" viewBox="0 0 16 16">
+                    <path d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
+                  </svg></span>
+               
+                  <span>Beginner</span></p>
+                  <div><p>
+                    <span class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill "></i>
+                      <i class="bi bi-star-half "></i> <span >4.5</span> 
+                </span>
+                <span class="text-secondary">(2,500)</span></p>
+                <p> <span class="fw-bold me-2">500$ </span><span class="text-secondary"><del>$600</del></span></p>
+                </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <img src="assets/IMG/avatar-7.jpg"  class="rounded-circle w-25" alt="Avatar2">
+                  <small class="text-body-secondary fs-5">Sobo Rikhan</small>
+                  <i class="bi bi-bookmark fs-5"></i>
+                </div>
+              </div>
+            </div>
+            
             </div>
           </div>
-        </div>
-    </div>
+             <!--second row--> 
+    <div class="container my-5">
+        <h3 class="mb-4">Most Popular</h3>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/IMG/course-html.jpg" class="card-img-top" alt="graphQQI">
+                <div class="card-body">
+                  <h5 class="card-title">HTML Full Course - Build a Website Tutorial</h5>
+                  <p><i class="fa-regular fa-clock"></i><span> 3h 16m </span> <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reception-4 text-secondary" viewBox="0 0 16 16">
+                    <path d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
+                  </svg></span>
+               
+                  <span>Beginners</span></p>
+                  <div><p>
+                    <span class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star "></i>
+                      <i class="bi bi-star "></i> <span >3</span> 
+                </span>
+                <span class="text-secondary">(1,600)</span></p>
+                <p> <span class="fw-bold me-2">550$ </span><span class="text-secondary"><del>$700</del></span></p>
+                </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <img src="assets/IMG/avatar-4.jpg"  class="rounded-circle w-25" alt="Avatar2">
+                  <small class="text-body-secondary fs-5">Miston Wilson</small>
+                  <i class="bi bi-bookmark fs-5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/IMG/course-javascript.jpg" class="card-img-top" alt="graphQQI">
+                <div class="card-body">
+                  <h5 class="card-title">A Complete Beginner's Guide to JavaSScript</h5>
+                  <p><i class="fa-regular fa-clock"></i><span> 4h 10m </span> <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reception-4 text-background-color" viewBox="0 0 16 16">
+                    <path d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
+                  </svg></span>
+               
+                  <span>Advance</span></p>
+                  <div><p>
+                    <span class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star "></i> <span >3.5</span> 
+                </span>
+                <span class="text-secondary">(1,500)</span></p>
+                <p> <span class="fw-bold me-2">600$ </span><span class="text-secondary"><del>$750</del></span></p>
+                </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <img src="assets/IMG/avatar-1.jpg"  class="rounded-circle w-25" alt="Avatar2">
+                  <small class="text-body-secondary fs-5">Jenny Wilson</small>
+                  <i class="bi bi-bookmark fs-5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/IMG/course-node.jpg" class="card-img-top" alt="graphQQI">
+                <div class="card-body">
+                  <h5 class="card-title">Beginning Node.js, Express & MongoDB Developer</h5>
+                  <p><i class="fa-regular fa-clock"></i><span> 2h 00m </span> <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reception-4 text-background-color" viewBox="0 0 16 16">
+                    <path d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
+                  </svg></span>
+               
+                  <span>Intermediate</span></p>
+                  <div><p>
+                    <span class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill "></i>
+                      <i class="bi bi-star "></i> <span >4</span> 
+                </span>
+                <span class="text-secondary">(15,700)</span></p>
+                <p> <span class="fw-bold me-2">800$ </span><span class="text-secondary"><del>$950</del></span></p>
+                </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <img src="assets/IMG/avatar-3.jpg"  class="rounded-circle w-25" alt="Avatar2">
+                  <small class="text-body-secondary fs-5">Sina Ray</small>
+                  <i class="bi bi-bookmark fs-5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/IMG/course-react.jpg" class="card-img-top" alt="graphQQI">
+                <div class="card-body">
+                  <h5 class="card-title">How to easily create a website width React</h5>
+                  <p><i class="fa-regular fa-clock"></i><span> 3h 5m </span> <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reception-4 text-background-color" viewBox="0 0 16 16">
+                    <path d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
+                  </svg></span>
+               
+                  <span>Advance</span></p>
+                  <div><p>
+                    <span class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill "></i>
+                      <i class="bi bi-star-half "></i> <span >4.5</span> 
+                </span>
+                <span class="text-secondary">(1,500)</span></p>
+                <p> <span class="fw-bold me-2">500$ </span><span class="text-secondary"><del>$600</del></span></p>
+                </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <img src="assets/IMG/avatar-2.jpg"  class="rounded-circle w-25" alt="Avatar2">
+                  <small class="text-body-secondary fs-5">April Noms</small>
+                  <i class="bi bi-bookmark fs-5"></i>
+                </div>
+              </div>
+            </div>
+            
+            </div>
+          </div>
+             <!--third row--> 
+    <div class="container my-5">
+        <h3 class="mb-4">Trending</h3>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/IMG/course-gatsby.jpg" class="card-img-top" alt="graphQQI">
+                <div class="card-body">
+                  <h5 class="card-title">Revolutionize how you build the web</h5>
+                  <p><i class="fa-regular fa-clock"></i><span> 1h 46m </span> <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reception-4 text-background-color" viewBox="0 0 16 16">
+                    <path d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
+                  </svg></span>
+               
+                  <span>Intermediate</span></p>
+                  <div><p>
+                    <span class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star"></i>
+                      <i class="bi bi-star "></i>
+                      <i class="bi bi-star "></i> <span >2.0</span> 
+                </span>
+                <span class="text-secondary">(16,500)</span></p>
+                <p> <span class="fw-bold me-2">800$ </span><span class="text-secondary"><del>$850</del></span></p>
+                </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <img src="assets/IMG/avatar-6.jpg"  class="rounded-circle w-25" alt="Avatar2">
+                  <small class="text-body-secondary fs-5">Jenny Wilson</small>
+                  <i class="bi bi-bookmark fs-5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/IMG/course-html.jpg" class="card-img-top" alt="graphQQI">
+                <div class="card-body">
+                  <h5 class="card-title">HTML Full Course - Build a Website Tutorial</h5>
+                  <p><i class="fa-regular fa-clock"></i><span> 3h 16m </span> <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reception-4 text-secondary" viewBox="0 0 16 16">
+                    <path d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
+                  </svg></span>
+               
+                  <span>Beginners</span></p>
+                  <div><p>
+                    <span class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star "></i>
+                      <i class="bi bi-star "></i> <span >3</span> 
+                </span>
+                <span class="text-secondary">(1,600)</span></p>
+                <p> <span class="fw-bold me-2">550$ </span><span class="text-secondary"><del>$700</del></span></p>
+                </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <img src="assets/IMG/avatar-4.jpg"  class="rounded-circle w-25" alt="Avatar2">
+                  <small class="text-body-secondary fs-5">Miston Wilson</small>
+                  <i class="bi bi-bookmark fs-5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/IMG/course-node.jpg" class="card-img-top" alt="graphQQI">
+                <div class="card-body">
+                  <h5 class="card-title">Beginning Node.js, Express & MongoDB Developer</h5>
+                  <p><i class="fa-regular fa-clock"></i><span> 2h 00m </span> <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reception-4 text-background-color" viewBox="0 0 16 16">
+                    <path d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
+                  </svg></span>
+               
+                  <span>Intermediate</span></p>
+                  <div><p>
+                    <span class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill "></i>
+                      <i class="bi bi-star "></i> <span >4.0</span> 
+                </span>
+                <span class="text-secondary">(15,700)</span></p>
+                <p> <span class="fw-bold me-2">800$ </span><span class="text-secondary"><del>$950</del></span></p>
+                </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <img src="assets/IMG/avatar-3.jpg"  class="rounded-circle w-25" alt="Avatar2">
+                  <small class="text-body-secondary fs-5">Sina Ray</small>
+                  <i class="bi bi-bookmark fs-5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/IMG/course-laravel.jpg" class="card-img-top" alt="graphQQI">
+                <div class="card-body">
+                  <h5 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h5>
+                  <p><i class="fa-regular fa-clock"></i><span> 1h 00m </span> <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reception-4 text-secondary" viewBox="0 0 16 16">
+                    <path d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
+                  </svg></span>
+               
+                  <span>Beginner</span></p>
+                  <div><p>
+                    <span class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill "></i>
+                      <i class="bi bi-star-half "></i> <span >4.5</span> 
+                </span>
+                <span class="text-secondary">(2,500)</span></p>
+                <p> <span class="fw-bold me-2">500$ </span><span class="text-secondary"><del>$600</del></span></p>
+                </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <img src="assets/IMG/avatar-7.jpg"  class="rounded-circle w-25" alt="Avatar2">
+                  <small class="text-body-secondary fs-5">Sobo Rikhan</small>
+                  <i class="bi bi-bookmark fs-5"></i>
+                </div>
+              </div>
+            </div>
+            
+            </div>
+          </div>
+      
+   
 </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>

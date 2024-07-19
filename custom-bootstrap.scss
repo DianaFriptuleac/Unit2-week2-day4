@@ -13,7 +13,6 @@
 // creiamo dei colori nuovi per sovrascrivere i vecchi
 $new-primary: rgb(255, 81, 32);
 $new-success: rgb(133, 255, 133);
-$new-warning: rgb(211, 211, 67);
 $new-violet: #7550fe;
 $btn-green: #1acb98;
 $icon-hearo:#ffeeda;
@@ -25,7 +24,6 @@ $font-beige-icon:#e7b87c;
 $new-theme-colors: (
   'primary': $new-primary,
   'success': $new-success,
-  'warning': $new-warning,
   'background-color': $new-violet,
   'btn-green':$btn-green,
   'beige': $icon-hearo,
